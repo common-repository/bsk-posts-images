@@ -1,0 +1,62 @@
+.simply-scroll-container { /* Container DIV - automatically generated */
+	position: relative;
+}
+
+.simply-scroll-clip { /* Clip DIV - automatically generated */
+	position: relative;
+	overflow: hidden;
+}
+
+.simply-scroll-list { /* UL/OL/DIV - the element that simplyScroll is inited on */
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+.simply-scroll { /* Customisable base class for style override DIV */
+	border-bottom: 1px solid #d5d5d5;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px 0px;
+	height: auto;
+	overflow: hidden;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 74%, rgba(234,234,234,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(74%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 74%,rgba(234,234,234,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 74%,rgba(234,234,234,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 74%,rgba(234,234,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 );
+	background: linear-gradient(top, rgba(255,255,255,1) 74%,rgba(234,234,234,1) 100%);
+}
+
+.simply-scroll .simply-scroll-list li {
+	float: left;
+	padding:0;
+	margin:0;
+}
+.bsk-posts-images-scroller-container {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/*For slider*/
+.bsk-posts-images-slider-tmpl-1-container{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
